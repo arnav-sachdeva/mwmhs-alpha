@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>M</title>
 
@@ -24,6 +24,7 @@
 
 <body>
 
+<!-- First section containing top navbar and board with bg img-->
   <section class="first-section">
     <a href="#"><img class="logo" src="images/logo.gif" alt=""></a>
     <nav class="navbar navbar-expand-sm top-navbar">
@@ -45,26 +46,26 @@
         </li>
       </ul>
     </nav>
-    <div class="row">
-      <div class="col-lg-5 col-md-7 col-sm-8">
-        <div class="board">
-          <p class="board-affiliation">Affiliated to CBSE New Delhi</p>
-          <h1 class="board-heading">Modernways Model <span class="board-heading-span">School</span></h1>
-          <h2 class="board-address">Sector 29-C, Chandigarh</h2>
-          <p class="board-bottom">A Senior Secondary School</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-7">
+          <div class="board">
+            <p class="board-affiliation">Affiliated to CBSE New Delhi</p>
+            <h1 class="board-heading">Modernways Model <span class="board-heading-span">School</span></h1>
+            <h2 class="board-address">Sector 29-C, Chandigarh</h2>
+            <p class="board-bottom">A Senior Secondary School</p>
+          </div>
         </div>
       </div>
     </div>
-
   </section>
 
-  <section class="second-section">
-
+<!-- Second section containing welcome and daily updates carousel -->
+<section class="second-section">
 <h1 class="welcome-heading">Welcome To Modern Ways!</h1>
-
     <div class="daily-updates">
       <h1 class="daily-updates-heading">Daily Updates</h1>
-      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div id="daily-updates-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
             <em class="daily-dates">Oct 24, 2020</em>
@@ -75,19 +76,84 @@
             <h2 class="daily-text">“Not only must we be good, but we must also be good for something.”</h2>
           </div>
         </div>
-        <a class="carousel-control-prev daily-updates-buttons-parent" href="#testimonial-carousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev daily-updates-buttons-parent" href="#daily-updates-carousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon daily-updates-buttons"></span>
         </a>
-        <a class="carousel-control-next daily-updates-buttons-parent" href="#testimonial-carousel" role="button" data-slide="next">
+        <a class="carousel-control-next daily-updates-buttons-parent" href="#daily-updates-carousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon daily-updates-buttons"></span>
         </a>
       </div>
     </div>
   </section>
 
-  <div class="third-div">
-    <h1>This is the third div.</h1>
+<!-- Third section containing Results of 4 previous years -->
+<section class="third-section">
+  <div class="past-year-results">
+    <h1 class="results-heading">Role Of Honor</h1>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+      <div class="results-yearly-left">
+      <h2>Year 2020</h2>
+      <img src="" alt="">
+      <p>Name1 Class X</p>
+      <img src="" alt="">
+      <p>Name2 Class XII</p>
+      </div>
+      <div class="results-yearly-left">
+      <h2>Year 2019</h2>
+      <img src="" alt="">
+      <p>Name1 Class X</p>
+      <img src="" alt="">
+      <p>Name2 Class XII</p>
+      </div>
+    </div>
+  <div class="col-lg-6">
+    <div class="results-yearly-right">
+    <h2>Year 2018</h2>
+    <img src="" alt="">
+    <p>Name1 Class X</p>
+    <img src="" alt="">
+    <p>Name2 Class XII</p>
+    </div>
+    <div class="results-yearly-right">
+    <h2>Year 2017</h2>
+    <img src="" alt="">
+    <p>Name1 Class X</p>
+    <img src="" alt="">
+    <p>Name2 Class XII</p>
+    </div>
+    </div>
   </div>
+ </div>
+</div>
+</section>
+
+<section class="fourth-section">
+    <div class="testimonials">
+      <h1 class="testimonials-heading">Testimonials</h1>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <img src="" alt="">
+            <em class="testimonial-name">Name1</em>
+            <h2 class="testimonial-content">Content1</h2>
+          </div>
+          <div class="carousel-item container-fluid">
+            <img src="" alt="">
+            <em class="testimonial-name">Name2</em>
+            <h2 class="testimonial-content">Content2</h2>
+          </div>
+        </div>
+        <a class="carousel-control-prev daily-updates-buttons-parent" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon daily-updates-buttons"></span>
+        </a>
+        <a class="carousel-control-next testimonial-buttons-parent" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon testimonial-buttons"></span>
+        </a>
+      </div>
+    </div>
+  </section>
 
 
 </body>
