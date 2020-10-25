@@ -1,0 +1,162 @@
+/* FIRST SECTION */
+.first-section{
+  background-image: url('images/building-dark-layer.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-bottom: 12rem;
+}
+
+.logo{
+position: absolute;
+height: 8rem;
+z-index: 1;
+margin-left: 2rem;
+margin-top: 0.5rem;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+.top-navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-color: #EA353B;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.nav-item{
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.nav-link{
+  color: black;
+}
+
+.nav-link:hover{
+  color: #EA353B;
+}
+
+.board{
+  /* background-color: rgba(23, 162, 184, 0.4); */
+  background-color: rgba(234, 53, 59, 0.4);
+  /* width: 35rem; */
+  margin-left: 6rem;
+  margin-top: 12rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: #EA353B;
+}
+
+.board-affiliation{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+  font-family: monospace,courier;
+  color: white;
+}
+
+.board-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.4rem;
+  font-family: monospace,courier;
+  color: white;
+}
+
+.board-heading-span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.board-address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: monospace,courier;
+  color: white;
+}
+
+.board-bottom{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: monospace,courier;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* SECOND SECTION */
+.welcome-heading{
+  background-color: rgba(234, 53, 59, 0.9);
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.daily-updates{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  border-color: #EA353B;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.daily-updates-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #EA353B;
+}
+
+.daily-dates{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+}
+
+.daily-text {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+}
+
+.daily-updates-buttons{
+  background-color: #EA353B;
+}
+
+.third-div{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-align: center;
+}
