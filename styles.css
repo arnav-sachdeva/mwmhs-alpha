@@ -8,22 +8,22 @@
 }
 
 .logo{
-position: absolute;
-height: 8rem;
-z-index: 1;
-margin-left: 2rem;
-margin-top: 0.5rem;
+height: 6rem;
+/* z-index: 1; */
 }
 
 .logo:hover{
   transform: scale(1.1);
 }
 
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #EA353B;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}
+
 .top-navbar{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
   border-color: #EA353B;
   border-style: solid;
   border-top: none;
@@ -34,8 +34,8 @@ margin-top: 0.5rem;
 
 .nav-item{
   font-size: 1.5rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .nav-link{
@@ -46,15 +46,41 @@ margin-top: 0.5rem;
   color: #EA353B;
 }
 
-.board{
-  /* background-color: rgba(23, 162, 184, 0.4); */
+.dropdown-menu{
+  border-style: solid;
+  border-radius: 2rem;
+  border-color: #EA353B;
+  background-color: black;
+}
+
+.dropdown-item{
+  border-radius: 2rem;
+  color: #EA353B;
+}
+
+.navbar-toggler:hover{
+  background-color: #EA353B;
+}
+
+@media(min-width:320px){
+  .board{
+      background-color: rgba(234, 53, 59, 0.4);
+      margin-top: 12rem;
+      border-radius: 2rem;
+      border-style: solid;
+      border-color: #EA353B;
+  }
+}
+
+@media(min-width:992px){
+  .board{
   background-color: rgba(234, 53, 59, 0.4);
-  /* width: 35rem; */
   margin-left: 6rem;
   margin-top: 12rem;
   border-radius: 2rem;
   border-style: solid;
   border-color: #EA353B;
+}
 }
 
 .board-affiliation{
@@ -234,4 +260,52 @@ margin-top: 0.5rem;
   margin-right: auto;
   width: 20rem;
   height: 20rem;
+}
+
+/* FIFTH SECTION */
+.fifth-section{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(234, 53, 59, 0.9);
+}
+
+.Infrastructure-video{
+  height: 35%;
+  width: 75%;
+}
+
+/* SIXTH SECTION */
+.sixth-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+ background-color: rgba(0, 0, 0, 1);
+}
+
+.follow-us{
+  color: white;
+}
+
+.footer-logo{
+  height: 8rem;
+}
+
+.footer-logo:hover{
+  transform: scale(1.1);
+}
+
+.social-media{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.social-icon{
+  margin: 1rem;
+  font-size: 2.5rem;
 }
