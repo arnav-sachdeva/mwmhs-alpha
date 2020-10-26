@@ -1,6 +1,7 @@
 /* FIRST SECTION */
 .first-section{
-  background-image: url('images/building-dark-layer.png');
+  /* background-image: url('images/building-dark-layer.png'); */
+  background-image: url('images/building-dark-layer.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
