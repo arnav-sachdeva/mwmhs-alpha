@@ -1,7 +1,7 @@
+/* *****Home Page Start***** */
 /* FIRST SECTION */
 .first-section{
-  /* background-image: url('images/building-dark-layer.png'); */
-  background-image: url('images/test1(1).jpg');
+  background-image: url('images/building-small-size.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -34,9 +34,9 @@ height: 6rem;
 }
 
 .nav-item{
-  font-size: 1.5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .nav-link{
@@ -45,6 +45,9 @@ height: 6rem;
 
 .nav-link:hover{
   color: #EA353B;
+/* transform: skew(20deg);
+color: white;
+background-color: rgba(234, 53, 59, 1); */
 }
 
 .dropdown-menu{
@@ -59,6 +62,12 @@ height: 6rem;
   color: #EA353B;
 }
 
+.dropdown-item:active{
+  border-radius: 2rem;
+  color: white;
+  background-color: #EA353B;
+}
+
 .navbar-toggler:hover{
   background-color: #EA353B;
 }
@@ -66,10 +75,12 @@ height: 6rem;
 @media(min-width:320px){
   .board{
       background-color: rgba(234, 53, 59, 0.4);
-      margin-top: 12rem;
       border-radius: 2rem;
       border-style: solid;
       border-color: #EA353B;
+  }
+  .first-section{
+    padding-bottom: 5.45rem;
   }
 }
 
@@ -77,10 +88,12 @@ height: 6rem;
   .board{
   background-color: rgba(234, 53, 59, 0.4);
   margin-left: 6rem;
-  margin-top: 12rem;
   border-radius: 2rem;
   border-style: solid;
   border-color: #EA353B;
+}
+.first-section{
+  padding-bottom: 12rem;
 }
 }
 
@@ -151,6 +164,10 @@ height: 6rem;
   background-color: rgba(0, 0, 0, 1);
 }
 
+.twitter{
+  text-align: center;
+}
+
 .daily-updates-heading{
   display: flex;
   flex-direction: column;
@@ -205,6 +222,24 @@ height: 6rem;
 
 .results-yearly-left{
   padding-bottom: 2rem;
+}
+
+@media(min-width:320px){
+  .results-yearly-left{
+  text-align: center;
+  }
+.results-yearly-right{
+text-align: center;
+}
+}
+
+@media(min-width:992px){
+  .results-yearly-left{
+  text-align: left;
+  }
+  .results-yearly-right{
+    text-align: right;
+  }
 }
 
 .results-img{
@@ -286,7 +321,7 @@ height: 6rem;
   justify-content: center;
   text-align: center;
   padding-top: 3rem;
- background-color: rgba(0, 0, 0, 1);
+ background-color: #2D2D2D;
 }
 
 .follow-us{
@@ -309,4 +344,43 @@ height: 6rem;
 .social-icon{
   margin: 1rem;
   font-size: 2.5rem;
+}
+
+.copyright-text{
+  color: white;
+}
+
+.developer-text{
+  color: white;
+}
+/********Home Page End********* */
+
+/* *****About-us Page Start***** */
+.individual-page-top-div{
+  background-color: black;
+  border-radius: 2rem;
+}
+
+.individual-page-headings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 5rem;
+  margin: 0;
+  color: #EA353B;
+}
+
+.individual-page-text-div{
+  margin: auto;
+  background-color: #EA353B;
+}
+
+.individual-page-text{
+  padding: 3rem 3rem 3rem 3rem;
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
 }
