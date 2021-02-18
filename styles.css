@@ -80,11 +80,15 @@ background-color: rgba(234, 53, 59, 1); */
       border-color: #EA353B;
   }
   .first-section{
+    background-image: url('images/mobile-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     padding-bottom: 5.45rem;
   }
 }
 
-@media(min-width:992px){
+@media(min-width:600px){
   .board{
   background-color: rgba(234, 53, 59, 0.4);
   margin-left: 6rem;
@@ -93,6 +97,10 @@ background-color: rgba(234, 53, 59, 1); */
   border-color: #EA353B;
 }
 .first-section{
+  background-image: url('images/building-small-size.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   padding-bottom: 12rem;
 }
 }
@@ -145,6 +153,8 @@ background-color: rgba(234, 53, 59, 1); */
 
 /* SECOND SECTION */
 .welcome-heading{
+  margin-top: 1rem;
+  border-radius: 1rem;
   background-color: rgba(234, 53, 59, 0.9);
   color: white;
   padding-top: 5rem;
@@ -154,18 +164,16 @@ background-color: rgba(234, 53, 59, 1); */
 }
 
 .daily-updates{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border-color: #EA353B;
   border-style: solid;
   border-left: none;
   border-right: none;
-  background-color: rgba(0, 0, 0, 1);
-}
-
-.twitter{
-  text-align: center;
+  background-color: black;
 }
 
 .daily-updates-heading{
@@ -201,6 +209,7 @@ background-color: rgba(234, 53, 59, 1); */
 
 /* THIRD SECTION */
 .third-section{
+  border-radius: 0.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: rgba(234, 53, 59, 0.9);
@@ -235,10 +244,12 @@ text-align: center;
 
 @media(min-width:992px){
   .results-yearly-left{
-  text-align: left;
+  /* text-align: left; */
+  text-align: center;
   }
   .results-yearly-right{
-    text-align: right;
+    /* text-align: right; */
+    text-align: center;
   }
 }
 
@@ -249,14 +260,16 @@ text-align: center;
 
 /* FOURTH SECTION */
 .testimonials{
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   border-color: #EA353B;
   border-style: solid;
   border-left: none;
   border-right: none;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: black;
 }
 
 .testimonials-heading{
@@ -300,13 +313,17 @@ text-align: center;
 
 /* FIFTH SECTION */
 .fifth-section{
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: #EA353B;
+  border-radius: 0.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: rgba(234, 53, 59, 0.9);
+  background-color: black;
 }
 
 .Infrastructure-video{
@@ -316,6 +333,8 @@ text-align: center;
 
 /* SIXTH SECTION */
 .sixth-section{
+  margin-top: 1rem;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -355,7 +374,7 @@ text-align: center;
 }
 /********Home Page End********* */
 
-/* *****About-us Page Start***** */
+/* *****Individual Page Start***** */
 .individual-page-top-div{
   background-color: black;
   border-radius: 2rem;
@@ -384,3 +403,5 @@ text-align: center;
   font-size: 1.5rem;
   color: white;
 }
+
+/* *****Individual Page End***** */
